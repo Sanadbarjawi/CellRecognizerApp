@@ -14,6 +14,8 @@
 		C9AB5CAA213BD1D900771A6C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C9AB5CA8213BD1D900771A6C /* LaunchScreen.storyboard */; };
 		C9AB5CB3213BDD8300771A6C /* MessageOnlyCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9AB5CB1213BDD8300771A6C /* MessageOnlyCell.swift */; };
 		C9AB5CB4213BDD8300771A6C /* MessageOnlyCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = C9AB5CB2213BDD8300771A6C /* MessageOnlyCell.xib */; };
+		C9AB5CB7213C068200771A6C /* MessageAndImageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9AB5CB5213C068200771A6C /* MessageAndImageCell.swift */; };
+		C9AB5CB8213C068200771A6C /* MessageAndImageCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = C9AB5CB6213C068200771A6C /* MessageAndImageCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,8 @@
 		C9AB5CAB213BD1D900771A6C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C9AB5CB1213BDD8300771A6C /* MessageOnlyCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageOnlyCell.swift; sourceTree = "<group>"; };
 		C9AB5CB2213BDD8300771A6C /* MessageOnlyCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MessageOnlyCell.xib; sourceTree = "<group>"; };
+		C9AB5CB5213C068200771A6C /* MessageAndImageCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageAndImageCell.swift; sourceTree = "<group>"; };
+		C9AB5CB6213C068200771A6C /* MessageAndImageCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MessageAndImageCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,10 +68,36 @@
 				C9AB5CA6213BD1D900771A6C /* Assets.xcassets */,
 				C9AB5CA8213BD1D900771A6C /* LaunchScreen.storyboard */,
 				C9AB5CAB213BD1D900771A6C /* Info.plist */,
+				C9AB5CBB213C088D00771A6C /* Cells */,
+			);
+			path = CellRecognizerApp;
+			sourceTree = "<group>";
+		};
+		C9AB5CB9213C087000771A6C /* MessageOnlyCell */ = {
+			isa = PBXGroup;
+			children = (
 				C9AB5CB1213BDD8300771A6C /* MessageOnlyCell.swift */,
 				C9AB5CB2213BDD8300771A6C /* MessageOnlyCell.xib */,
 			);
-			path = CellRecognizerApp;
+			path = MessageOnlyCell;
+			sourceTree = "<group>";
+		};
+		C9AB5CBA213C088000771A6C /* Message&ImageCell */ = {
+			isa = PBXGroup;
+			children = (
+				C9AB5CB5213C068200771A6C /* MessageAndImageCell.swift */,
+				C9AB5CB6213C068200771A6C /* MessageAndImageCell.xib */,
+			);
+			path = "Message&ImageCell";
+			sourceTree = "<group>";
+		};
+		C9AB5CBB213C088D00771A6C /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				C9AB5CB9213C087000771A6C /* MessageOnlyCell */,
+				C9AB5CBA213C088000771A6C /* Message&ImageCell */,
+			);
+			path = Cells;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -132,6 +162,7 @@
 				C9AB5CA7213BD1D900771A6C /* Assets.xcassets in Resources */,
 				C9AB5CA5213BD1D700771A6C /* Main.storyboard in Resources */,
 				C9AB5CB4213BDD8300771A6C /* MessageOnlyCell.xib in Resources */,
+				C9AB5CB8213C068200771A6C /* MessageAndImageCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -145,6 +176,7 @@
 				C9AB5CA2213BD1D700771A6C /* ViewController.swift in Sources */,
 				C9AB5CB3213BDD8300771A6C /* MessageOnlyCell.swift in Sources */,
 				C9AB5CA0213BD1D700771A6C /* AppDelegate.swift in Sources */,
+				C9AB5CB7213C068200771A6C /* MessageAndImageCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -13,8 +13,6 @@ protocol Cellable: class{
 }
 class MessageOnlyCell: UITableViewCell, Cellable {
     weak var delegate: Cellable?
-    
-    @IBOutlet weak var imageV: UIImageView!
     @IBOutlet weak var textLbl: UILabel!
     override func awakeFromNib() {
         super.awakeFromNib()
@@ -25,5 +23,4 @@ class MessageOnlyCell: UITableViewCell, Cellable {
         guard let data = modelData else { return }
         self.textLbl.text = data[row].message
     }
-    
 }
