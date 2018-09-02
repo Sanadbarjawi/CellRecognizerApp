@@ -12,6 +12,8 @@
 		C9AB5CA5213BD1D700771A6C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C9AB5CA3213BD1D700771A6C /* Main.storyboard */; };
 		C9AB5CA7213BD1D900771A6C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C9AB5CA6213BD1D900771A6C /* Assets.xcassets */; };
 		C9AB5CAA213BD1D900771A6C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C9AB5CA8213BD1D900771A6C /* LaunchScreen.storyboard */; };
+		C9AB5CB3213BDD8300771A6C /* MessageOnlyCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9AB5CB1213BDD8300771A6C /* MessageOnlyCell.swift */; };
+		C9AB5CB4213BDD8300771A6C /* MessageOnlyCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = C9AB5CB2213BDD8300771A6C /* MessageOnlyCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		C9AB5CA6213BD1D900771A6C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C9AB5CA9213BD1D900771A6C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C9AB5CAB213BD1D900771A6C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C9AB5CB1213BDD8300771A6C /* MessageOnlyCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageOnlyCell.swift; sourceTree = "<group>"; };
+		C9AB5CB2213BDD8300771A6C /* MessageOnlyCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MessageOnlyCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +64,8 @@
 				C9AB5CA6213BD1D900771A6C /* Assets.xcassets */,
 				C9AB5CA8213BD1D900771A6C /* LaunchScreen.storyboard */,
 				C9AB5CAB213BD1D900771A6C /* Info.plist */,
+				C9AB5CB1213BDD8300771A6C /* MessageOnlyCell.swift */,
+				C9AB5CB2213BDD8300771A6C /* MessageOnlyCell.xib */,
 			);
 			path = CellRecognizerApp;
 			sourceTree = "<group>";
@@ -125,6 +131,7 @@
 				C9AB5CAA213BD1D900771A6C /* LaunchScreen.storyboard in Resources */,
 				C9AB5CA7213BD1D900771A6C /* Assets.xcassets in Resources */,
 				C9AB5CA5213BD1D700771A6C /* Main.storyboard in Resources */,
+				C9AB5CB4213BDD8300771A6C /* MessageOnlyCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -136,6 +143,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C9AB5CA2213BD1D700771A6C /* ViewController.swift in Sources */,
+				C9AB5CB3213BDD8300771A6C /* MessageOnlyCell.swift in Sources */,
 				C9AB5CA0213BD1D700771A6C /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -281,6 +289,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = A7HJR6DLGG;
 				INFOPLIST_FILE = CellRecognizerApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -298,6 +307,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = A7HJR6DLGG;
 				INFOPLIST_FILE = CellRecognizerApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
